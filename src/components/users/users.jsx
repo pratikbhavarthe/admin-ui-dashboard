@@ -21,7 +21,8 @@ class Users extends Component {
 		this.setState({ isLoading: true });
 		try {
 			const { data: users } = await getUsers();
-			setTimeout(() => this.setState({ users, isLoading: false }), 2000); 
+			setTimeout(() => this.setState({ users, isLoading: false }), 2000); // setTimeout is used just to simulate the loader
+			// this.setState({ users, isLoading: false });
 		} catch (error) {
 			console.error(error);
 			toast.error("Error while fetching users");

@@ -38,6 +38,7 @@ class UsersTable extends Component {
 			label: "Actions",
 			key: "actions",
 			content: (user, columnProps, isEditing) =>
+				// this.getSwitchRowContent(user, columnProps, isEditing),
 				this.getActionsContent(user, columnProps, isEditing),
 			editable: false,
 		},

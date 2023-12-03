@@ -18,6 +18,7 @@ axios.interceptors.response.use(null, error => {
   return Promise.reject(error);
 });
 
+/* eslint-disable import/no-anonymous-default-export */
 export default {
   get: axios.get,
   post: axios.post,

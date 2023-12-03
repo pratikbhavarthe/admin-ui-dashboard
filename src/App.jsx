@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'
 import Users from './components/users';
@@ -10,7 +11,7 @@ function App() {
       <nav className="navbar navbar-light bg-primary">
         <div className="container-fluid">
           <a className="navbar-brand text-light">
-            Admin-UI-Dashboard
+            Admin-UI
           </a>
         </div>
       </nav>
