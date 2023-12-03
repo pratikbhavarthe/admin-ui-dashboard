@@ -1,6 +1,14 @@
 import React from "react";
 
 const SearchBox = ({ value, onChange, onFocus, totalCount, placeholder }) => {
+  const handleInputChange = (e) => {
+    onChange(e.currentTarget.value);
+  };
+
+  const handleInputFocus = (e) => {
+    onFocus(e);
+  };
+
   return (
     <div className="input-group mb-3">
       <input
@@ -8,13 +16,15 @@ const SearchBox = ({ value, onChange, onFocus, totalCount, placeholder }) => {
         value={value}
         className="form-control"
         placeholder={placeholder}
-        onChange={(e) => onChange(e.currentTarget.value)}
-        onFocus={(e) => onFocus(e)}
+        onChange={handleInputChange}
+        onFocus={handleInputFocus}
       />
-      <span className="input-group-text">
-        Total users &nbsp;&nbsp;
-        <span className="badge bg-primary">{totalCount}</span>
-      </span>
+      <div className="input-group-append">
+        <span className="input-group-text">
+          Total users &nbsp;&nbsp;
+          <span className="badge bg-primary">{totalCount}</span>
+        </span>
+      </div>
     </div>
   );
 };
