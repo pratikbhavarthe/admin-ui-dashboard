@@ -2,15 +2,20 @@
   "name": "admin-ui-dashboard",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/pratikbhavarthe.github.io/admin-ui-dashboard",
+  "homepage": "https://github.com/pratikbhavarthe/admin-ui-dashboard",
   "dependencies": {
-    "axios": "^1.6.2",
+    "16": "^0.0.2",
+    "axios": "^0.21.1",
     "bootstrap": "^5.1.0",
     "bootstrap-icons": "^1.5.0",
+    "latest-version": "^7.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-toastify": "^7.0.4",
     "web-vitals": "^1.0.1"
+  },
+  "engines": {
+    "node": "16.x"
   },
   "scripts": {
     "start": "react-scripts start",
