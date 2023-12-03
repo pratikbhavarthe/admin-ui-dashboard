@@ -10,7 +10,7 @@ function App() {
       <nav className="navbar navbar-light bg-primary">
         <div className="container-fluid">
           <a className="navbar-brand text-light">
-            Admin-UI
+            Admin UI Dashboard
           </a>
         </div>
       </nav>
