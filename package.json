@@ -1,8 +1,8 @@
 {
-  "name": "admin-ui",
+  "name": "admin-ui-dashboard",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://arshinde123.github.io/admin-ui",
+  "homepage": "https://github.com/pratikbhavarthe/admin-ui-dashboard",
   "dependencies": {
     "axios": "^0.21.1",
     "bootstrap": "^5.1.0",
