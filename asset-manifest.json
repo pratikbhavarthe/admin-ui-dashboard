@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/pratikbhavarthe.github.io/admin-ui-dashboard/static/css/main.3d56e2a6.css",
+    "main.js": "/pratikbhavarthe.github.io/admin-ui-dashboard/static/js/main.44519789.js",
+    "static/js/787.ebc7df2c.chunk.js": "/pratikbhavarthe.github.io/admin-ui-dashboard/static/js/787.ebc7df2c.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/pratikbhavarthe.github.io/admin-ui-dashboard/static/media/bootstrap-icons.94eeade15e6b7fbed95b.woff",
+    "static/media/bootstrap-icons.woff2?": "/pratikbhavarthe.github.io/admin-ui-dashboard/static/media/bootstrap-icons.dfd0ea122577eb61795f.woff2",
+    "index.html": "/pratikbhavarthe.github.io/admin-ui-dashboard/index.html",
+    "main.3d56e2a6.css.map": "/pratikbhavarthe.github.io/admin-ui-dashboard/static/css/main.3d56e2a6.css.map",
+    "main.44519789.js.map": "/pratikbhavarthe.github.io/admin-ui-dashboard/static/js/main.44519789.js.map",
+    "787.ebc7df2c.chunk.js.map": "/pratikbhavarthe.github.io/admin-ui-dashboard/static/js/787.ebc7df2c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d56e2a6.css",
+    "static/js/main.44519789.js"
+  ]
+}
