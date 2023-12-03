@@ -1,6 +1,6 @@
-# Getting Started with Admin-UI
+# Getting Started with Admin-UI-Dashboard
 
-## Live demo [Admin-UI](https://arshinde123.github.io/admin-ui/)
+## Live demo [Admin-UI-Dashboard](https://admin-ui-dashboard.vercel.app/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -41,6 +41,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ## Enivornment Vaiables
 ### `ADMIN_UI_API_URL`
 
-This ENV variable will set the base url for Admin-UI.
+This ENV variable will set the base url for Admin-UI-Dash board.
 
 

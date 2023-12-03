@@ -2,9 +2,9 @@
   "name": "admin-ui-dashboard",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/pratikbhavarthe/admin-ui-dashboard",
+  "homepage": "https://github.com/pratikbhavarthe.github.io/admin-ui-dashboard",
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^1.6.2",
     "bootstrap": "^5.1.0",
     "bootstrap-icons": "^1.5.0",
     "react": "^17.0.2",
